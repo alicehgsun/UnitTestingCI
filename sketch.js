@@ -31,7 +31,7 @@ function anomalyCode(x) {
 
 function nOfFibonacci(x) {
   let n = parseInt(x, 10);
-  return (!n || n < 1) ? -1 : (n < 4 ? 1 : (nOfFibonacci(n-1) + nOfFibonacci(n-2)));
+  return (!n || n < 1) ? -1 : (n < 3 ? 1 : (nOfFibonacci(n-1) + nOfFibonacci(n-2)));
 }
 
 module.exports = {
