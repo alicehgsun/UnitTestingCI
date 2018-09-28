@@ -29,6 +29,11 @@ function anomalyCode(x) {
   return '5' + x - x;
 }
 
+function nOfFibonacci(x) {
+  let n = parseInt(x, 10);
+  return (!n || n < 1) ? -1 : (n < 4 ? 1 : (nOfFibonacci(n-1) + nOfFibonacci(n-2)));
+}
+
 module.exports = {
   sum: sum,
   sub: sub,
@@ -37,5 +42,6 @@ module.exports = {
   digital_root: digital_root,
   sayHelloTo: sayHelloTo,
   answer: answer,
-  anomalyCode: anomalyCode
+  anomalyCode: anomalyCode,
+  nOfFibonacci: nOfFibonacci
 }

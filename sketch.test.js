@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, nOfFibonacci } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
@@ -92,4 +92,8 @@ test('anomalyCode hundred should be 5000', () => {
 
 test('anomalyCode thousand should be 50000', () => {
   expect(anomalyCode(7891)).toBe(50000);
+})
+
+test('the 20th number of fibonacci should be 6765', () => {
+  expect(nOfFibonacci(20)).toBe(6765);
 })
