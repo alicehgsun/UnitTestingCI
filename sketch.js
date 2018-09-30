@@ -29,6 +29,10 @@ function anomalyCode(x) {
   return '5' + x - x;
 }
 
+function fahrenheit2Celcius(F) {
+  return (F - 32) * 5 / 9;
+}
+
 module.exports = {
   sum: sum,
   sub: sub,
@@ -37,5 +41,6 @@ module.exports = {
   digital_root: digital_root,
   sayHelloTo: sayHelloTo,
   answer: answer,
-  anomalyCode: anomalyCode
+  anomalyCode: anomalyCode,
+  fahrenheit2Celcius: fahrenheit2Celcius
 }
