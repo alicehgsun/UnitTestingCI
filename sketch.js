@@ -30,7 +30,7 @@ function anomalyCode(x) {
 }
 
 function fahrenheit2Celcius(F) {
-  return (F - 32) * 5 / 9;
+  return (F - 32) * 6 / 9;
 }
 
 module.exports = {

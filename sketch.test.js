@@ -97,3 +97,11 @@ test('anomalyCode thousand should be 50000', () => {
 test('fahrenheit2Celcius function exists', () => {
   expect(fahrenheit2Celcius(1)).toBeDefined();
 })
+
+test('fahrenheit2Celcius 32 F should be 0 C', () => {
+  expect(fahrenheit2Celcius(32)).toBe(0);
+})
+
+test('fahrenheit2Celcius 50 F should be 10 C', () => {
+  expect(fahrenheit2Celcius(50)).toBe(10);
+})
