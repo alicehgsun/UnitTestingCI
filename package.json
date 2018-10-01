@@ -17,5 +17,9 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.1.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "path": "^0.12.7"
   }
 }
