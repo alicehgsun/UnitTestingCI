@@ -17,5 +17,10 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.1.4"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.2.0",
+    "path": "^0.12.7"
   }
 }
