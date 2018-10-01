@@ -29,6 +29,14 @@ function anomalyCode(x) {
   return '5' + x - x;
 }
 
+function anomalyCode(x) {
+  return '5' + x - x;
+}
+
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+
 module.exports = {
   sum: sum,
   sub: sub,
@@ -37,5 +45,6 @@ module.exports = {
   digital_root: digital_root,
   sayHelloTo: sayHelloTo,
   answer: answer,
-  anomalyCode: anomalyCode
+  anomalyCode: anomalyCode,
+  power: power
 }
