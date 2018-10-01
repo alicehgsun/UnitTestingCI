@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, nOfFibonacci } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, power, nOfFibonacci } = require('./sketch');
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
@@ -95,6 +95,10 @@ test('anomalyCode hundred should be 5000', () => {
 
 test('anomalyCode thousand should be 50000', () => {
   expect(anomalyCode(7891)).toBe(50000);
+})
+
+test('power of one number', () => {
+  expect(power(2, 2)).toBe(4);
 })
 
 test('the 20th number of fibonacci should be 6765', () => {
