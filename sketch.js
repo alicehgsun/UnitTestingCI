@@ -34,6 +34,15 @@ function anomalyCode(x) {
 
 function fahrenheit2Celcius(F) {
   return (F - 32) * 6 / 9;
+}
+
+function anomalyCode(x) {
+  return '5' + x - x;
+}
+
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
 
 function nOfFibonacci(x) {
   let n = parseInt(x, 10);
@@ -50,5 +59,6 @@ module.exports = {
   answer: answer,
   anomalyCode: anomalyCode,
   fahrenheit2Celcius: fahrenheit2Celcius,
+  power: power,
   nOfFibonacci: nOfFibonacci
 }

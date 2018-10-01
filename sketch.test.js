@@ -1,4 +1,5 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, fahrenheit2Celcius, nOfFibonacci } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, power, fahrenheit2Celcius, nOfFibonacci } = require('./sketch');
+
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
@@ -107,6 +108,10 @@ test('fahrenheit2Celcius 32 F should be 0 C', () => {
 
 test('fahrenheit2Celcius 50 F should be 10 C', () => {
   expect(fahrenheit2Celcius(50)).toBe(10);
+})
+     
+test('power of one number', () => {
+  expect(power(2, 2)).toBe(4);
 })
 
 test('the 20th number of fibonacci should be 6765', () => {
