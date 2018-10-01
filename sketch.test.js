@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, fahrenheit2Celcius } = require('./sketch');
-=======
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, nOfFibonacci } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, fahrenheit2Celcius, nOfFibonacci } = require('./sketch');
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
->>>>>>> upstream/master
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
