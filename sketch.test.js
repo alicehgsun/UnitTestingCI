@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, power, nOfFibonacci } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, power, nOfFibonacci, iThink } = require('./sketch');
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
@@ -103,6 +103,10 @@ test('power of one number', () => {
 
 test('the 20th number of fibonacci should be 6765', () => {
   expect(nOfFibonacci(20)).toBe(6765);
+})
+
+test('I think...', () => {
+  expect(iThink("tests are annoying", "I appreciate them")).toBe("I think tests are annoying but I appreciate them.");
 })
 
 const testUrlInMarkdown = (file) => {
