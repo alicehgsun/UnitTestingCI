@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode, fahrenheit2Celcius, power, nOfFibonacci, shuffleArray, iThink } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, milesToKilometers, sayHelloTo, anomalyCode, fahrenheit2Celcius, power, nOfFibonacci, shuffleArray, iThink } = require('./sketch');
 
 const fs = require("fs");
 const path = require("path");
@@ -108,6 +108,10 @@ test('fahrenheit2Celcius 32 F should be 0 C', () => {
 
 test('fahrenheit2Celcius 50 F should be 10 C', () => {
   expect(fahrenheit2Celcius(50)).toBe(10);
+})
+
+test('milesToKilometers 1 miles should be 1.609344 kilometeres', () => {
+  expect(milesToKilometers(1)).toBe(1.609344);
 })
 
 test('power of one number', () => {
