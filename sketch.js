@@ -48,6 +48,10 @@ function nOfFibonacci(x) {
   return (!n || n < 1) ? -1 : (n < 3 ? 1 : (nOfFibonacci(n-1) + nOfFibonacci(n-2)));
 }
 
+function iThink(thisThing, thatThing) {
+  return "I think " + thisThing + " but " + thatThing + ".";
+}
+
 module.exports = {
   sum: sum,
   sub: sub,
@@ -59,5 +63,6 @@ module.exports = {
   anomalyCode: anomalyCode,
   fahrenheit2Celcius: fahrenheit2Celcius,
   power: power,
-  nOfFibonacci: nOfFibonacci
+  nOfFibonacci: nOfFibonacci,
+  iThink: iThink
 }
