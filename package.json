@@ -16,11 +16,7 @@
   "author": "Daniel Shiffman",
   "license": "MIT",
   "devDependencies": {
-<<<<<<< HEAD
-    "jest": "^22.4.4"
-=======
     "jest": "^22.1.4"
->>>>>>> 2b59986da55a020a3f46212c545d37d6ecc6e4e1
   },
   "dependencies": {
     "node-fetch": "^2.2.0",
