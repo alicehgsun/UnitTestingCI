@@ -1,0 +1,25 @@
+{
+  "name": "unit_testing_ci",
+  "version": "1.0.0",
+  "description": "For learning about Unit Testing and Continuous Integration in ITP's Open Source Studio Course",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "test"
+  ],
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "author": "Daniel Shiffman",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "path": "^0.12.7"
+  }
+}
