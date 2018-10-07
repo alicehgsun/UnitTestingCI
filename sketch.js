@@ -84,7 +84,7 @@ console.log(miles * 1.609344);
 }
 
 function loveMy(myLove) {
-  return "I don't like my " + myLove + "<3";
+  return "I love my " + myLove + "<3";
 }
 
 module.exports = {
